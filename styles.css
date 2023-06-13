@@ -1,5 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0 px;
+  font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+p.big {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
 
-body{
-    color: rgb(40, 39, 39);
-    font-family: 'Lato', sans-serif;
+
+.info-box {
+  background-color: #1c1d22;
+  margin: 0px auto;
+  padding: 110px 0 110px 0;
+  color: white;
+  text-align: center;
+}
+.info-box h2 {
+  margin-bottom: 30px;
+}
+#flex-p {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#flex-p p {
+  padding: 30px;
+  max-width: 300px;
 }
